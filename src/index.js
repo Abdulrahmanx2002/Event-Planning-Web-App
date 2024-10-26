@@ -1,0 +1,13 @@
+// This should be the entry point of your React app
+// Ensure it's properly set up to render the App component
+
+import React from 'react';
+import ReactDOM from 'react-dom';
+import App from './App';  // Make sure this line is correct
+
+ReactDOM.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>,
+  document.getElementById('root')
+);
